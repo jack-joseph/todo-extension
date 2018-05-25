@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "to-do list",
+    "description": "i made a thing!",
+    "version": "0.1",
+    
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+
+    "icons": { "19": "media/icon19.png",
+        "128": "media/icon128.png" },
+
+    "permissions": ["storage"]
+}
